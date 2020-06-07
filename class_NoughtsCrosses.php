@@ -58,7 +58,7 @@ class NoughtsCrosses
      */
     public function calculate_winners(string $input)
     {
-        $result = str_replace(PHP_EOL, '', $input);
+        $result = str_replace(' ', '', $input);
 
         // set the winner to null
         $winner = null;
